@@ -2,7 +2,6 @@
 title: Why we should build our Go application as CLI
 comments: true
 categories:
-- tech
 - golang
 layout: post
 date: '2020-06-27 10:00:00 +0700'

@@ -2,8 +2,7 @@
 title: Coronator - The Story of Perfect Contact Tracing Application
 comments: true
 categories:
-- tech
-- flutter
+- story
 layout: post
 date: '2020-12-13 12:30:00 +0700'
 ---

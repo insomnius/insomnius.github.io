@@ -1,6 +1,7 @@
 ---
 title: Golang In-app Queue
-categories: [tech, golang]
+categories:
+- golang
 comments: true
 layout: post
 date:   2019-08-29 10:00:00 +0700
