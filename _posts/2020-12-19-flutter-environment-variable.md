@@ -3,6 +3,7 @@ title: Flutter Environment Variable (.env) Tutorial
 date: '2020-12-19 22:49:01'
 categories:
 - tech
+- flutter
 layout: post
 comments: true
 ---
