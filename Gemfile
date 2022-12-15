@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll"
 gem "jekyll-default-layout"
-gem "alembic-jekyll-theme"
+gem "jekyll-remote-theme"
 
 gem "nokogiri"
 

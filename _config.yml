@@ -27,7 +27,7 @@ css_inline: false # Will insert all styles into a single <style> block in the <h
 # Build settings
 markdown: kramdown
 
-theme: alembic-jekyll-theme
+remote_theme: daviddarnes/alembic@main
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
@@ -37,6 +37,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jemoji
+  - jekyll-remote-theme
 
 paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
