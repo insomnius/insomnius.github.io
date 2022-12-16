@@ -7,6 +7,8 @@ layout: post
 date: '2022-12-16 23:00:00 +0700'
 ---
 
+![Golang Generic](/assets/uUy2hcEeUBUzpB2avIU9bM9u8Gt2-g693in3.jpeg)
+
 Generic type in golang is a way of writing code that allows for the same type of code to be reused without having to write out the same code multiple times. This is done by creating a single function or type that can be used for multiple types of data that are similar in nature. It can be used to simplify code and increase code readability.
 
 One of the use case which I recently found useful is to convert a value into pointer, before generic comes I usually write this kind of function repetitively per type for example:
