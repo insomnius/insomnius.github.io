@@ -16,7 +16,7 @@ One of the use case which I recently found useful is to convert a value into poi
 
 <code data-gist-id="9aa38a3017c597ea5c293b5b27a7444c" data-gist-line="38-82"></code>
 
-But with generic, I have to only write two functions:
+But with generic, I only have to write two functions:
 
 <code data-gist-id="9aa38a3017c597ea5c293b5b27a7444c" data-gist-line="84-93"></code>
 
