@@ -5,6 +5,7 @@ categories:
 - golang
 layout: post
 date: '2022-12-16 23:00:00 +0700'
+image_header: /assets/uUy2hcEeUBUzpB2avIU9bM9u8Gt2-g693in3.jpeg
 ---
 
 ![Golang Generic](/assets/uUy2hcEeUBUzpB2avIU9bM9u8Gt2-g693in3.jpeg)

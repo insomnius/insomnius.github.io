@@ -5,6 +5,7 @@ categories:
 - architecture
 layout: post
 date: '2020-07-07 10:00:00 +0700'
+image_header: /assets/Hero_ccims_18366839824_0.jpg
 ---
 
 ![Securing Image With Signed URL](/assets/Hero_ccims_18366839824_0.jpg)

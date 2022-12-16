@@ -5,6 +5,7 @@ categories:
 - flutter
 layout: post
 comments: true
+image_header: /assets/photo-project-ideas_sunday-morning.jpg
 ---
 
 ![Photo by Konstantin Dyadun](/assets/photo-project-ideas_sunday-morning.jpg)
