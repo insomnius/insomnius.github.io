@@ -1,0 +1,9 @@
+@startuml
+  actor User
+  User -> "API Gateway": POST /api/v1/reports
+  "API Gateway" -> "Report Service": POST /api/v1/reports
+  "Report Service" -> PubSub: Publish message to PubSub with job id in it's payload
+  PubSub --> "Report Service": Message published
+  "Report Service" -> "API Gateway": Return response
+  "API Gateway" -> User: Return response
+@enduml

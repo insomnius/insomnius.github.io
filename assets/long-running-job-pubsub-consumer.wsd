@@ -1,0 +1,18 @@
+@startuml
+  "Report Worker" -> Pubsub: Fetch message
+  Pubsub --> "Report Worker": Return message data
+  "Report Worker" -> "Report Worker": Parse message data
+
+  "Report Worker" --> Mysql: Select * from reports
+  Mysql --> "Report Worker": Return report data
+
+  "Report Worker" -> "Report Worker": Compile report file
+
+  "Report Worker" -> "GCS / Other Storage": Store report file
+  "GCS / Other Storage" --> "Report Worker": Return report URL
+
+  "Report Worker" -> "Email Service": Publish Email with a link to the report url
+  "Email Service" --> "Report Worker": Return response
+
+  "Report Worker" -> Pubsub: Acknowledge message
+@enduml
