@@ -20,7 +20,11 @@
       <meta property="og:image" content="{{ site.image }}"/>
     {% else %}
       {% seo %}
-      <meta property="og:image" content="{{ page.image_header }}"/>
+      {% if page.image_header %}
+        <meta property="og:image" content="{{ site.url }}{{ page.image_header }}"/>
+      {% else %}
+      <meta property="og:image" content="{{ site.url }}{{ site.image }}"/>
+      {% endif %}
     {% endif %}
 
     <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
