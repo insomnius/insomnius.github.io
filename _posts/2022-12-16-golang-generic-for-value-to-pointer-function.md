@@ -23,6 +23,8 @@ This makes development faster and more efficient, as developers don't have to wr
 
 ![magic meme gif](/assets/magic-meme.gif)
 
+**NOTES: To use generic you should have atleast golang with version 1.18**
+
 For full code example you could visit this gist [HERE](https://gist.github.com/insomnius/9aa38a3017c597ea5c293b5b27a7444c)
 
 
