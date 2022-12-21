@@ -26,7 +26,13 @@ This makes development faster and more efficient, as developers don't have to wr
 
 **NOTES: To use generic you should have atleast golang with version 1.18**
 
-For full code example you could visit this gist [HERE](https://gist.github.com/insomnius/9aa38a3017c597ea5c293b5b27a7444c)
+For full code example you could visit this gist [HERE](https://gist.github.com/insomnius/9aa38a3017c597ea5c293b5b27a7444c).
+
+You could also find other example in golang github repository here:
+
+1. https://github.com/golang/exp/tree/master/constraints
+2. https://github.com/golang/exp/tree/master/maps
+3. https://github.com/golang/exp/tree/master/slices
 
 
 <script
